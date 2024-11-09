@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content1 %} 
+
+<div class="row my-2">
+    {% for eachitem in certification %}
+        <div class="jumbtron jumbtron-fluid mt-3">
+            <h1 class="dis"> {{eachitem.Cname}} </h1>
+            <p class="ins"> {{eachitem.institute}} </p>
+        </div>
+    {% endfor %}
+
+
+
+</div>
+{% endblock content1 %} 
+
+

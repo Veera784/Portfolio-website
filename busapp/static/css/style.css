@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(16, 15, 15);
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: rgb(185, 235, 22);
+}
+
+.navbar-dark{
+    background-color: rgb(18,1,46);
+}
+
+.circular-image-container{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image{
+    width: 180%;
+    height: auto;
+    display: block;
+}
+
+.title{
+    color: rgb(243, 3, 87);
+}
+
+.name{
+    color:rgb(240, 231, 231);
+}
+
+.social_links{
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: left;
+    align-items: left;  
+}
+
+.about_image{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.jumbtron{
+    background-color: rgb(12, 119, 201);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display4{
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+}
+
+.lead{
+    font-size: 20px;
+    color: rgb(228, 9, 9);
+}
+
+.lead1{
+    font-size: 20px;
+    color: rgb(2, 21, 8);
+}
+
+.dis{
+    color: rgb(24, 32, 22);
+    font-size: 30px;
+}
+
+
+.ins{
+    font-size: 25px;
+    color: rgb(31, 131, 1);
+}
+
+.tit{
+    font-size: 20px;
+    color: rgb(204, 15, 15);
+}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content1 %} 
+<div class="row my-5">
+  <div class="col-12 d-flex justify-content-center align-items-center">
+    <div class="circular-image-container">
+        <img class="circular-image" src="{% static 'images/v4.jpg' %}" alt="image">
+    </div>    
+  </div>
+
+  <div class="col-12 text-center mt-3">
+    <h4 class="title"> !!Welcome!! </h4>
+      <div class="name">
+        <h1> VEERAKUMAR MURUGAN </h1>
+        <h1> Have a nice day </h1>
+      </div>
+  </div>
+  <div class="col-12 text-center mt-3">
+    <div class="col-12 d-flex justify-content-center align-items-center">
+      <a href="https://www.linkedin.com/in/veera-kumar-224960232/" target="_blank" >
+      <img src="{% static 'images/link.png' %}" alt="images/link.png" width="50" height="50" class="social_links"></a> 
+
+      <a href="https://www.instagram.com/mvk_since_1997/" target="_blank" class="ms-4">
+      <img src="{% static 'images/insta.png' %}" alt="images/insta.png" width="50" height="50" class="social_links"></a> 
+
+      <a href="https://web.telegram.org/a/" target="_blank" class="ms-4">
+      <img src="{% static 'images/Telegram.png' %}" alt="images/Telegram.png" width="50" height="50" class="social_links"></a> 
+    </div>
+</div>
+
+{% endblock content1 %} 
+
